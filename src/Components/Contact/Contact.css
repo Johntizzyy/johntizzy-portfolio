@@ -10,7 +10,7 @@
     align-items: center;
   }
   
-  #contact > .container > div > a > h1> {
+  #contact > .container > div > a > h1 {
     margin-right: 10rem;
   }
   #contact > .container > div > h1::before {
