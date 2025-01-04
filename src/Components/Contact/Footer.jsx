@@ -79,8 +79,10 @@ const Footer = ({ activeTab, handleActiveTab }) => {
       <div className="contact">
         <ul>
           <li>
-            <a href="mailto:adepojujohn566@gmail.com">
-              adepojujohn566@gmail.com
+            <a href="mailto:adepojujohn566@gmail.com" >
+              adepojujohn566
+              {/* <br/> */}
+              @gmail.com
             </a>
           </li>
           <li>

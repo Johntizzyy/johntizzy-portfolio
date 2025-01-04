@@ -6,7 +6,7 @@
     flex-direction: column;
   }
   #hero-section > div > #hero-image {
-    width: 750px;
+    width: 80%;
     height: 500px;
     margin-top: 8rem;
     cursor: pointer;
@@ -22,7 +22,7 @@
   /* HERO TEXTS */
   
   #hero-text {
-    width: 750px;
+    width: 80%;
     margin-top: 2rem;
   }
   #hero-text > h1 {
@@ -57,35 +57,41 @@
   }
   
   
-  @media only screen and (max-width:900px) {
+  @media screen and (max-width:900px) {
     #hero-section > div > #hero-image{
-      width: 600px;
-      height: 450px;    }
+      width: 100%;
+      height: 400px;    
+    }
 
       #hero-text {
-        width: 600px;
+        width: 100%;
         margin-top: 2rem;
       }
   } 
 
   @media only screen and (max-width:600px) {
     #hero-section > div > #hero-image{
-      width: 400px;
-      height: 450px;    }
+      width: 100%;
+      height: 400px;    
+     }
 
       #hero-text {
-        width: 400px;
+        width: 100%;
         margin-top: 2rem;
       }
   }
 
-   @media only screen and (max-width:400px) {
+   @media only screen and (max-width:450px) {
+    #hero-section{
+      width: 80%;
+      /* max-width: 90%; */
+      margin: auto;
+    }
     #hero-section > div > #hero-image{
-      width: 300px;
-      height: 400px;    }
+      width: 100%;
+      height: 300px;
+      /* width: 380px;
+      height: 300px;     */
+    }
 
-      #hero-text {
-        width: 300px;
-        margin-top: 2rem;
-      }
   }

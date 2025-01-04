@@ -1,8 +1,15 @@
 #contact #footer {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
-  
+  #contact #footer > div > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
   #contact #footer > div > ul > li {
     list-style: none;
     font-size: 1rem;
@@ -55,4 +62,31 @@
   color: var(--white);
 }
 
+@media screen and (max-width:400px) {
+
+  #contact #footer > div > ul > li >a{
+    font-size: 11px;
+    cursor: pointer;
+    color:var(--dark-grey);
+    position: relative;
+
+    /* text-decoration: none; */
+  }
+
+  #contact #footer > div > ul > li.link >a:after{
+    position: absolute;
+    content: '';
+    background-color: var(--white);
+    height: 1px;
+    border-radius: 10px;
+    width: 0px;
+    top: 10px;
+    right: 10px;
+    transition: 0.3s;
+  }
+  #contact #footer > div > ul > li >a:hover::after{
+    width: 30px;
+  }
+
   
+}

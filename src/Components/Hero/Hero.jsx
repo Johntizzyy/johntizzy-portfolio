@@ -28,18 +28,19 @@ const Hero = () => {
           </p>
           <a
             href={resume}
-            className="btn text border pr-3"
+            className="btn text border m-2"
             id="cv"
             data-aos="fade-up"
             data-aos-duration="1000"
             download="Resume.pdf"
+          
           >
             Download cv
           </a>
 
           <a
             href="mailto:adepojujohn566@gmail.com"
-            className="btn border"
+            className="btn border m-2"
             id="mail"
             data-aos="fade-up"
             data-aos-duration="1000"
