@@ -14,7 +14,7 @@ import savageVid from "../../assets/savage-video.mp4"
 import whatsappVid from "../../assets/whatsapp-video.mp4"
 import githubVid from "../../assets/github-video.mp4"
 import rebelVid from "../../assets/rebel-video.mp4"
-import ytVid from '../../assets/ytVid.mp4'
+import ytVid from "../../assets/ytVideo.mp4"
 import myPortfolioVid from "../../assets/portfolio-vid.mp4"
 
 const Portfolio = () => {
